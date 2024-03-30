@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link href="styleloginSig.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Add 'nav-link' class to each navigation link -->
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="shopping.html">Shope</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="contacts.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 loginbtn" href="#">login</a>
+            </li>      
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="form forml">
+      <!--login---------->
+      <div class="login-form">
+        <!--cancel-btn---------------->
+        <a href="javascript:void(0);" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>Log In</strong>
+        <!--inputs-->
+        <form>
+          <input
+            type="email"
+            name="email"
+            placeholder="Example@gmail.com"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input type="submit" value="Log In" />
+        </form>
+        <!--forget-and-sign-up-btn-->
+        <div class="form-btns">
+          <a href="#" class="forget">Forget Your Password?</a>
+          <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+        </div>
+      </div>
+      <!--Sign-up---------->
+      <div class="sign-up-form">
+        <!--cancel-btn---------------->
+        <a href="javascript:void(0);" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>Sign Up</strong>
+        <!--inputs-->
+        <form>
+          <input type="text" name="fullname" placeholder="Full Name" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Example@gmail.com"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input type="submit" value="Sign Up" />
+        </form>
+        <!--forget-and-sign-up-btn-->
+        <div class="form-btns">
+          <a href="javascript:void(0);" class="already-account">
+            Already Have Account?</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid blodSec1">
+      <h1>#readmore</h1>
+      <p>Read all case studies about our product!</p>
+    </div>
+   <div class="container blogsec2">
+    <div class="row">
+        <div class="parta col-lg-6 col-sm-12">
+            <img src="img/blog/b1.jpg" alt="">
+            <h1>13/01</h1>
+        </div>
+        <div class="partb col-lg-5 col-sm-12">
+            <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas possimus ducimus earum, molestias in ullam perspiciatis placeat cum id praesentium est ad. Expedita numquam suscipit veniam reiciendis explicabo nemo laborum?</p>
+            <a>CONTINUE READING</a>
+        </div>
+    </div>
+   </div>
+   <div class="container blogsec2">
+    <div class="row">
+        <div class="parta col-lg-6 col-sm-12">
+            <img src="img/blog/b2.jpg" alt="">
+            <h1>13/01</h1>
+        </div>
+        <div class="partb col-lg-5 col-sm-12">
+            <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas possimus ducimus earum, molestias in ullam perspiciatis placeat cum id praesentium est ad. Expedita numquam suscipit veniam reiciendis explicabo nemo laborum?</p>
+            <a>CONTINUE READING</a>
+        </div>
+    </div>
+   </div>
+   <div class="container blogsec2">
+    <div class="row">
+        <div class="parta col-lg-6 col-sm-12">
+            <img src="img/blog/b3.jpg" alt="">
+            <h1>13/01</h1>
+        </div>
+        <div class="partb col-lg-5 col-sm-12">
+            <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas possimus ducimus earum, molestias in ullam perspiciatis placeat cum id praesentium est ad. Expedita numquam suscipit veniam reiciendis explicabo nemo laborum?</p>
+            <a>CONTINUE READING</a>
+        </div>
+    </div>
+   </div>
+   <div class="container blogsec2">
+    <div class="row">
+        <div class="parta col-lg-6 col-sm-12">
+            <img src="img/blog/b4.jpg" alt="">
+            <h1>13/01</h1>
+        </div>
+        <div class="partb col-lg-5 col-sm-12">
+            <h4>The Cotton-Jersey Zip-Up Hoodie</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas possimus ducimus earum, molestias in ullam perspiciatis placeat cum id praesentium est ad. Expedita numquam suscipit veniam reiciendis explicabo nemo laborum?</p>
+            <a>CONTINUE READING</a>
+        </div>
+    </div>
+   </div>
+   <section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+</section>
+    <section class="sec7">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <div class="part1">
+              <h4>Sign Up For Newsletters</h4>
+              <p>Get E-mail updates about our latest shop and</p>
+              <span>special offers.</span>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <div class="part2">
+              <input type="email" placeholder="Your email address" />
+              <button class="normal">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-3 col-m-6 col-sm-12 fdiv1">
+            <div>
+              <a href="#"><img src="img/logo.png" alt="logo" class="logo" /></a>
+            </div>
+            <div>
+              <h3>Contact</h3>
+              <h4><strong>Address:</strong> 71 ponning lane vemon Rockvifa</h4>
+              <h4><strong>Phone:</strong> +9123 465 789</h4>
+              <h4><strong>Hours:</strong> 10.00 - 18.00,Mon - Sat</h4>
+              <h3 class="follow">Follow Us</h3>
+            </div>
+            <div class="icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-m-6 col-sm-12 fdiv2">
+            <div>
+              <h3>About</h3>
+            </div>
+            <div>
+              <h4><a href="#">About Us</a></h4>
+              <h4><a href="#">Delivery Information</a></h4>
+              <h4><a href="#">Privacy Policy</a></h4>
+              <h4><a href="#">Terms &amp; Conditions</a></h4>
+              <h4><a href="#">Contact Us</a></h4>
+            </div>
+          </div>
+          <div class="col-lg-2 col-m-6 col-sm-12 fdiv3">
+            <div>
+              <h3>My AccounT</h3>
+            </div>
+            <div>
+              <h4><a href="#">Sign in</a></h4>
+              <h4><a href="#">View Cart</a></h4>
+              <h4><a href="#"> My Wishlist</a></h4>
+              <h4><a href="#">Track My Order</a></h4>
+              <h4><a href="#">Help</a></h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-m-6 col-sm-12 fdiv4">
+            <div>
+              <h3>Install App</h3>
+            </div>
+            <div>
+              <p>From App Store or Google Play</p>
+            </div>
+            <div class="imgs">
+              <img src="img/pay/app.jpg" alt="app" />
+              <img src="img/pay/play.jpg" alt="play" />
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="pay" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="loginjs.js"></script>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
